@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  width: 500px;
+  height: 309px;
+  border-radius: 31px;
+  margin: 100px;
+  background-image: url('./creditcard.jpg');
+}
+
+h1 {
+  color: white;
+  padding-left: 260px;
+  padding-top: 17px;
+  padding-right: 48px;
+}
+
+.simcards {
+  width: 166px;
+  padding-right: 278px;
+  height: 87px;
+  margin-top: -24px;
+}
+
+.card {
+  width: 74px;
+  height: 96px;
+  padding-top: 45px;
+}
+
+.SN h2 {
+  color: white;
+  padding-left: 260px;
+  margin-left: -260px;
+  line-height: 22px;
+  padding-top: -6px;
+  margin-top: -5px;
+}
+
+.SN {
+  padding-right: 30px;
+  margin-top: -21px;
+  padding-left: 19px;
+}
+
+.mycards {
+  display: flex;
+  flex-direction: column;
+  padding-left: 59px;
+}
+
+.cards {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.validthru {
+  padding-left: 30px;
+  line-height: 0px;
+  margin-top: -24px;
+  color: white;
+  font-size: 14px;
+  font-family: Century "Gothic", "CenturyGothic, AppleGothic, sans-serif"
+}
+
+.monthyear {
+  padding-left: 42px;
+  line-height: 0px;
+  margin-top: -24px;
+  color: white;
+  font-size: 15px;
+}
+
+i {
+  color: white;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 104px;
+}
+
+.SN h3 {
+  background-color: rgba(226, 226, 13, 0.3);
+  color: white;
+  font-size: 25px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+span {
+  color: white;
+  font-size: 20px;
+  margin-left: -111px;
+  font-weight: bold;
+}
