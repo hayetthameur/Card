@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import sim from './sim.png';
 import cards from './cards.jpg';
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h1>CREDITCARD</h1>
-      <img className="simcards" src={sim}/> 
+      <img className="simcards" src={sim} alt="logo"/> 
       <div className = "cards">
              <div className="SN">
               <h3>7235 3256 7859 1245</h3>
@@ -44,13 +43,6 @@ function App() {
                
              </div>   
       </div>
-      
-     
-
-     
-
-
-   
     </div>
 
   );
